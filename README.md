@@ -4,7 +4,7 @@ This is an Open Source Python Project made by Tangramice. Currently at version 1
 
 Instalation (Step by step) :
 
-1. Get the Terminal Sweeper dep file (TerminalSweeper.deb)
+1. Get the Terminal Sweeper deb file (TerminalSweeper.deb)
 2. Affer getting it, run:
 
 sudo dpkg -i [Your File]
@@ -15,8 +15,8 @@ terminalsweeper
 
 In order to check the Controls, you can type "C" while running terminalsweeper.
 
-Update 1.11 Changes:
+Update 1.2 Changes:
 
-This update is the bugfix for 1.1 Fixed bugs such as:
-
-when you start a game and finish the 1st collumn at the beggining, it lables it as a "Win", even though it isnt finished.
+This update Cleaned the original TerminalSweeper code, No more spaggheti.
+In addition, we also added so if the user cancels using Ctrl + C, it will just respond as how you would exit the app but with a warning.
+this is to optimize and minimize the code we made before, when i started using Python for the first time.
